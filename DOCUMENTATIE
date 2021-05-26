@@ -1,0 +1,24 @@
+actiuni/interogari
+-> adaugare client // addClient(Client client)
+-> stergere client // deleteClient(Client client)
+-> adaugare credit // createLoan(Float value, Currency currency, Duration duration)
+-> stergere credit daca sunt platite ratele // payLoan(Loan loan)
+-> calculare rata pentru credit nou //
+-> calcularea platii tuturor ratelor // calculateAllLoans(Currency newCurrency)
+-> plata rate // payLoan(Loan loan)
+-> amanare rate // postponeLoan()
+-> informatii despre ratele curente // getInformation()
+-> conversia cursului valutar // calculateExchangeRate(Currency oldCurrency, Currency newCurrency)
+-> conversia ratelor in alta valuta // changeLoanCurrency(Currency newCurrency)
+
+obiecte
+-> persoana // class Person
+-> client // class Client
+-> banca // class Bank
+-> credit // class Loan
+-> durata credit // class Loan
+-> rata // class Rate
+-> curs valutar // class CurrencyConverter
+-> valuta // abstract class Currency
+
+nume fisier: history.csv
